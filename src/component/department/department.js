@@ -12,7 +12,7 @@ export default function Department() {
   const departments = {
   cse: [
     {
-      src: './assets/carouselImages/01.jpg',
+      src: './assets/carouselImages/CPUASSEMBLY.webp',
       title: 'CPU Assembly',
       filename: 'cpuassembly.pdf',
       filelink: "./assets/rules/cpuassembly.pdf",
@@ -20,42 +20,42 @@ export default function Department() {
       reglink:" "
     },
     {
-      src: './assets/carouselImages/01.jpg',
+      src: './assets/carouselImages/code_debugging.webp',
       title: 'Debugging',
       filename: 'codedebugging.pdf',
       filelink: "./assets/rules/codedebugging.pdf " ,
       id:"2",
       reglink:"https://forms.gle/edN4ENaEmwDwffE98"    },
     {
-      src: './assets/carouselImages/01.jpg',
+      src: './assets/carouselImages/ANIME_QUIZ.webp',
       title: 'Anime Quiz',
       filename: 'animequiz.pdf',
       filelink: "./assets/rules/animequiz.pdf " ,
       id:"3",
       reglink:"https://forms.gle/6TkS8vVUv6b6MdLL7"    },
     {
-      src: './assets/carouselImages/01.jpg',
+      src: './assets/carouselImages/scrambled_keyboard.webp',
       title: 'Scrambled Keyboard',
       filename: 'scrambledkeyboard.pdf',
       filelink: "./assets/rules/scrambledkeyboard.pdf " ,
       id:"4",
       reglink:"https://forms.gle/1iiGqcuwDS5Rve3f9"    },
     {
-      src: './assets/carouselImages/01.jpg',
+      src: './assets/carouselImages/BGMI_TOURNMENT.jpg',
       title: 'Sports(BGMI)',
       filename: 'bgmi.pdf',
       filelink: "./assets/rules/bgmi.pdf " ,
       id:"5",
       reglink:"https://forms.gle/MBHj6DE49ZLERnks7"    },
     {
-      src: './assets/carouselImages/01.jpg',
+      src: './assets/carouselImages/HARDWAREEXPO.webp',
       title: 'PC Hardware Exhibition',
       filename: 'hardware.pdf',
       filelink: "./assets/rules/hardware.pdf " ,
       id:"6",
       reglink:""    },
     {
-      src: './assets/carouselImages/01.jpg',
+      src: './assets/carouselImages/ROBOTICSEXHIBITION.webp',
       title: 'Robotic Exhibition',
       filename: 'robotics.pdf',
       filelink: "./assets/rules/robotics.pdf " ,

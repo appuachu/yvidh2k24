@@ -28,6 +28,6 @@ export default function Special() {
           </section>
     </div>
     </div>
-    
+
   )
 }
