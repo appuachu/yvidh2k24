@@ -17,7 +17,7 @@ export default function Department() {
       filename: 'cpuassembly.pdf',
       filelink: "./assets/rules/cpuassembly.pdf",
       id:"1",
-      reglink:" "
+      reglink:"https://forms.gle/ynuUn1S5Xx4mAKU36"
     },
     {
       src: './assets/carouselImages/code_debugging.webp',
@@ -64,26 +64,26 @@ export default function Department() {
   ],
  ai: [
     {
-      src: './assets/carouselImages/02.jpg',
+      src: './assets/carouselImages/WEBDEV_1_70.png',
       title: 'Website Development',
       filename: 'webdevelopment.pdf',
       filelink: "./assets/rules/webdevelopment.pdf " ,
       id:"8",
-      reglink:" "    },
+      reglink:"https://docs.google.com/forms/d/e/1FAIpQLSdkenyt82OFCtECTQ-bOzBSXH3L4dUcVEALb_3VD0hnuCC54w/viewform?usp=sf_link"    },
     {
-      src: './assets/carouselImages/02.jpg',
+      src: './assets/carouselImages/treasure_hunt_1_83.webp',
       title: 'QR Treasure Hunt',
       filename: 'qrtreasurehunt.pdf ',
       filelink: "./assets/rules/qrtreasurehunt.pdf " ,
       id:"9",
       reglink:" "    },
     {
-      src: './assets/carouselImages/02.jpg',
+      src: './assets/carouselImages/prompt_2_79.webp',
       title: 'Prompt Literaria',
       filename: 'promptliteraria.pdf',
       filelink: "./assets/rules/promptliteraria.pdf " ,
       id:"10",
-      reglink:" "    },
+      reglink:"https://docs.google.com/forms/d/e/1FAIpQLSfg2vjNirqu5BSTcOGNnV_-YphWhYlhl1a4-ob3TtjCmvWVmg/viewform?vc=0&c=0&w=1&flr=0 "    },
   ],
   ece: [
     {
@@ -117,7 +117,7 @@ export default function Department() {
   ],
   mech: [
     {
-      src: './assets/carouselImages/04.jpg',
+      src: './assets/carouselImages/MASTERMECH_optimized.webp',
       title: 'MASTER MECH',
       filename: 'mastermech.pdf',
       filelink: "./assets/rules/mastermech.pdf " ,
@@ -125,7 +125,7 @@ export default function Department() {
       reglink:"https://forms.gle/MFwEFBhcXjYCsDcUA"
     },
     {
-      src: './assets/carouselImages/04.jpg',
+      src: './assets/carouselImages/lathe_optimized.webp',
       title: 'LATHE MAESTRO',
       filename: 'LatheMaestro.pdf',
       filelink: "./assets/rules/lathemaestro.pdf " ,
@@ -133,7 +133,7 @@ export default function Department() {
       reglink:"https://forms.gle/MFwEFBhcXjYCsDcUA"
     },
     {
-      src: './assets/carouselImages/04.jpg',
+      src: './assets/carouselImages/LFR.webp',
       title: 'LFR(Follow The Line)',
       filename: 'lfr.pdf',
       filelink: "./assets/rules/lfr.pdf " ,
@@ -141,7 +141,7 @@ export default function Department() {
       reglink:"https://forms.gle/MFwEFBhcXjYCsDcUA"
     },
     {
-      src: './assets/carouselImages/04.jpg',
+      src: './assets/carouselImages/SLOWRACE.webp',
       title: 'SLOW AS SNAIL',
       filename: 'slowassnail.pdf',
       filelink: "./assets/rules/slowassnail.pdf " ,
@@ -149,17 +149,34 @@ export default function Department() {
       reglink:"https://forms.gle/MFwEFBhcXjYCsDcUA"
     },
     {
-      src: './assets/carouselImages/04.jpg',
-      title: 'ISRO EXPO',
+      src: './assets/carouselImages/meroboexpo.webp',
+      title: 'ROBOTICS EXPO',
+      filename: 'roboticexpo.pdf',
+      filelink: "./assets/rules/roboticsexpo.pdf " ,
+      id:"40",
+      reglink:""
+    },
+    {
+      src: './assets/carouselImages/mespace.webp',
+      title: 'SPACE EXPO PLANETARIUM',
       filename: 'spaceexpo.pdf',
       filelink: "./assets/rules/spaceexpo.pdf " ,
-      id:"18",
-      reglink:"https://forms.gle/MFwEFBhcXjYCsDcUA"
+      id:"41",
+      reglink:""
     },
+    {
+      src: './assets/carouselImages/PROJECTEXPO.webp',
+      title: 'PROJECT EXPO',
+      filename: 'projectexpo.pdf',
+      filelink: "./assets/rules/projectexpo.pdf " ,
+      id:"42",
+      reglink:""
+    },
+
   ],
  civil: [
     {
-      src: './assets/carouselImages/05.jpg',
+      src: './assets/carouselImages/CHESS_MASTER_1_76.webp',
       title: 'CHESS MASTER',
       filename: 'chessmaster.pdf',
       filelink: "./assets/rules/chessmaster.pdf " ,
@@ -167,7 +184,7 @@ export default function Department() {
       reglink:"https://forms.gle/oznCQLCgU52cwdRn6"
     },
     {
-      src: './assets/carouselImages/05.jpg',
+      src: './assets/carouselImages/CRAFTY_CUTS_1_78.webp',
       title: 'Crafty Cuts',
       filename: 'craftycuts.pdf',
       filelink: "./assets/rules/craftycuts.pdf " ,
@@ -175,7 +192,7 @@ export default function Department() {
       reglink:"https://forms.gle/RYATvUfcw9YJaTSf6"
     },
     {
-      src: './assets/carouselImages/05.jpg',
+      src: './assets/carouselImages/cadd_copy_1_78.webp',
       title: 'CADDSTER',
       filename: 'caddster.pdf',
       filelink: "./assets/rules/caddster.pdf " ,
@@ -183,7 +200,7 @@ export default function Department() {
       reglink:"https://forms.gle/fdj7ZmEhsz5vqDm4A"
     },
     {
-      src: './assets/carouselImages/05.jpg',
+      src: './assets/carouselImages/mould_1_77.webp',
       title: 'Setup the Mould',
       filename: 'setupthemould.pdf',
       filelink: "./assets/rules/setupthemould.pdf " ,
@@ -193,7 +210,7 @@ export default function Department() {
   ],
 eee: [
     {
-      src: './assets/carouselImages/06.jpg',
+      src: './assets/carouselImages/MAD_RUSH_copy_1_61.webp',
       title: 'MADRUSH',
       filename: 'madrush.pdf',
       filelink: "./assets/rules/madrush.pdf " ,
@@ -201,7 +218,7 @@ eee: [
       reglink:"https://forms.gle/uapFsgTemfaTHuHD9"
     },
     {
-      src: './assets/carouselImages/06.jpg',
+      src: './assets/carouselImages/SHOOT_OUT_copy_1_76.webp',
       title: 'SHOOTOUT',
       filename: 'shootout.pdf',
       filelink: "./assets/rules/shootout.pdf " ,
@@ -209,7 +226,7 @@ eee: [
       reglink:"https://forms.gle/jYG7KYSFfp9RCufS8"
     },
     {
-      src: './assets/carouselImages/06.jpg',
+      src: './assets/carouselImages/ORATE_copy_1_74.webp',
       title: 'Orate (PPT Presentation)',
       filename: 'orate.pdf',
       filelink: "./assets/rules/orate.pdf " ,
@@ -217,7 +234,7 @@ eee: [
       reglink:"https://forms.gle/8B7ZUN3WJXDimzV86"
     },
     {
-      src: './assets/carouselImages/06.jpg',
+      src: './assets/carouselImages/PPS_copy_1_75.webp',
       title: 'PERIOD PAIN SIMULATOR (EXHIBITION)',
       filename: 'periodpainsimulator.pdf',
       filelink: "./assets/rules/periodpainsimulator.pdf " ,
@@ -227,7 +244,7 @@ eee: [
   ],
   agri: [
     {
-      src: './assets/carouselImages/01.webp',
+      src: './assets/carouselImages/TRACTOR.webp',
       title: 'Tractor Parking',
       filename: 'tractor.pdf',
       filelink: "./assets/rules/tractor.pdf " ,
@@ -235,7 +252,7 @@ eee: [
       reglink:"https://forms.gle/iRgiPy8eGD2f368Q6"
     },
     {
-      src: './assets/carouselImages/01.webp',
+      src: './assets/carouselImages/droneexpo.webp',
       title: 'DRONE EXPO',
       filename: 'drone.pdf',
       filelink: "./assets/rules/drone.pdf" ,

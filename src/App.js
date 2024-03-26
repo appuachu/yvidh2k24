@@ -48,7 +48,7 @@ function App() {
   const handleMainClick = () => {
     setShowMain(true);
   }
-  
+
   useEffect(() => {
 
     const handleScroll = () => {
@@ -68,7 +68,7 @@ function App() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  
+
   useEffect(() => {
     // Simulate preloader hiding after 5 seconds
     const timeoutId = setTimeout(() => {
@@ -130,11 +130,11 @@ function App() {
                 <About />
               </section></>
             )}
-            
-            
+
+
             {showDepartments && !showContacts && !showSpecial && !showMain && (
               <><section className="Sections department" id="departmentevent"><Department/></section></>
-              
+
             )}
             {
               !showDepartments && showSpecial && !showContacts && !showMain && (
@@ -150,7 +150,7 @@ function App() {
               )
             }
 
-            
+
             {!showContacts && !showDepartments && !showSpecial && !showMain && (
               <><section className="Sections" id="faq"><Faq/></section></>
             )}
@@ -158,11 +158,11 @@ function App() {
               <><section className="Sectionsc" id="contacts">
               <Contacts />
             </section>
-            
-            
+
+
             </>
             )}
-            
+
           </>
         )}
       </div>

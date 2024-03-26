@@ -10,12 +10,12 @@ const CarouselMain = ({ dept }) => {
     setActiveId(id);
   };
 
-  const handleImageDownload = (src) => {
-    const link = document.createElement('a');
-    link.href = src;
-    link.download = 'image.jpg';
-    link.click();
-  };
+  // const handleImageDownload = (src) => {
+  //   const link = document.createElement('a');
+  //   link.href = src;
+  //   link.download = 'image.jpg';
+  //   link.click();
+  // };
 
   return (
     <div className='CarouselContainer'>
@@ -25,19 +25,21 @@ const CarouselMain = ({ dept }) => {
           {dept.map((image) => (
             <section className="Slidercontainermain" id={image.id} key={image.id} style={{ display: activeId === image.id ? 'flex' : 'none' }}>
               <div class="blurry-background"></div>
-              <div className='eventimage' onClick={() => handleImageDownload(image.src)}><img className='eventimage22' src={image.src} alt={image.title} /></div>
+              // <div className='eventimage' onClick={() => handleImageDownload(image.src)}><img className='eventimage22' src={image.src} alt={image.title} /></div>
+              <div className='eventimage' ><img className='eventimage22' src={image.src} alt={image.title} /></div>
+
               <div className='eventdetails'>
                 <h2 className='eventimagetittle'>{image.title}</h2>
                 { image.filelink && (
                   <p className='eventimageptag'>Download Rules here: <DownloadPDF pdflink={image.filelink} pdfname={image.filename}/> </p>
                 )}
-                
-                {image.reglink && (  
+
+                {image.reglink && (
                     <button>
                   <a href={image.reglink} style={{ textDecoration: 'none' }}>Register</a>
                   </button>
 
-                  
+
                 )}
               </div>
             </section>

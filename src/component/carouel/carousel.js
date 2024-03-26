@@ -13,7 +13,7 @@ function Carousel({ slides,handleSectionClick}) {
   return (
     <Swiper
       modules={[EffectCoverflow, Navigation, Pagination , Autoplay]}
-      autoplay={{ delay: 100000 }}
+      autoplay={{ delay: 2000 }}
       navigation={{
         prevEl: ".button-prev",
         nextEl: ".button-next",
@@ -36,7 +36,7 @@ function Carousel({ slides,handleSectionClick}) {
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index} className="slide-inner">
-         <a href={'#' + slide.id} onClick={() => handleSectionClick(slide.id)} ><img src={slide.src} alt="events" className="eventsimage" /></a> 
+         <a href={'#' + slide.id} onClick={() => handleSectionClick(slide.id)} ><img src={slide.src} alt="events" className="eventsimage" /></a>
         </SwiperSlide>
       ))}
       <div className="button-prev">
