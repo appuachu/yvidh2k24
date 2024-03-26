@@ -5,35 +5,35 @@ import Events from '../events/events'
 export default function Mainevent() {
     const mainevent = [
         {
-            src: './assets/carouselImages/vadhyadhwani.webp',
+            src: './assets/carouselImages/05.jpg',
             title: 'Vadhya Dhawani',
-            filename: 'vadhyadhawani.jpg',
-            filelink:"./assets/rules/vadhyadhwaniguidelines.jpg",
-            id:"33",
-            reglink:'https://forms.gle/DpX4mbX2Sdeww2Xq8'
+            filename: 'vadhyadhawani.pdf',
+            filelink:"./assets/rules/vidhyadhwani.pdf",
+            id:"13",
+            reglink:"https://forms.gle/DpX4mbX2Sdeww2Xq8"
           },
           {
-            src: './assets/carouselImages/raagaFINAL.webp',
+            src: './assets/carouselImages/05.jpg',
             title: 'RAAGA',
-            filename: 'raaga.jpg',
-            filelink:"./assets/rules/raagaguidelines.jpg",
-            id:"34",
+            filename: 'raaga.pdf',
+            filelink:"./assets/rules/raaga.pdf",
+            id:"14",
             reglink:"https://forms.gle/A4VxtTC3G2qNJTqt6"
           },
           {
-            src: './assets/carouselImages/NATYAfinal.webp',
+            src: './assets/carouselImages/05.jpg',
             title: 'NATYA',
-            filename: 'natya.jpg',
-            filelink:"./assets/rules/NATYA-guidelines.jpg",
-            id:"35",
+            filename: 'natya.pdf',
+            filelink:"./assets/rules/natya.pdf",
+            id:"15",
             reglink:"https://forms.gle/6QM95bdk4dnc5eKf6"
           },
           {
-            src: './assets/carouselImages/MUSCLEWAR.webp',
+            src: './assets/carouselImages/05.jpg',
             title: 'Muscle War',
-            filename: 'musclewar.jpg',
-            filelink:"./assets/rules/MUSCLEWARguidelines.jpg",
-            id:"36",
+            filename: 'musclewar.pdf',
+            filelink:"./assets/rules/musclewar.pdf",
+            id:"16",
             reglink:"https://forms.gle/XzEAg9heegorschd8"
           },
     ]
@@ -45,6 +45,6 @@ export default function Mainevent() {
           </section>
     </div>
     </div>
-
+    
   )
 }
