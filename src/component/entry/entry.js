@@ -17,9 +17,9 @@ export default class Entry extends Component {
     return (
       <div className={`EntryContainer ${this.state.videoLoaded ? 'loaded' : ''}`}>
         <div className="MyEntry">
-          <img src="/assets/Untitled.gif" autoPlay muted loop onCanPlayThrough={this.handleVideoLoad}></img>
+          <video src="/assets/entry.mp4" autoPlay muted loop onCanPlayThrough={this.handleVideoLoad}></video>
         </div>
-        <div className="text">
+        <div className="textcontainer">
           <img className="yvidhText" src="/assets/Untitled-1.png" alt="Yivdh"/>
         </div>
       </div>
