@@ -24,13 +24,15 @@ const CarouselMain = ({ dept }) => {
         <div className='eventreg'>
           {dept.map((image) => (
             <section className="Slidercontainermain" id={image.id} key={image.id} style={{ display: activeId === image.id ? 'flex' : 'none' }}>
-              <div className='eventimage' onClick={() => handleImageDownload(image.src)}><img src={image.src} alt={image.title} /></div>
+              <div class="blurry-background"></div>
+              <div className='eventimage' onClick={() => handleImageDownload(image.src)}><img className='eventimage22' src={image.src} alt={image.title} /></div>
               <div className='eventdetails'>
-                <h2>{image.title}</h2>
-                <p>Download Rules here: <DownloadPDF pdflink={image.filelink} pdfname={image.filename}/> </p>
+                <h2 className='eventimagetittle'>{image.title}</h2>
+                { image.filelink && (
+                  <p className='eventimageptag'>Download Rules here: <DownloadPDF pdflink={image.filelink} pdfname={image.filename}/> </p>
+                )}
+                
                 {image.reglink && (  
-
-                    
                     <button>
                   <a href={image.reglink} style={{ textDecoration: 'none' }}>Register</a>
                   </button>

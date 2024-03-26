@@ -5,23 +5,20 @@ import Events from '../events/events'
 export default function Special() {
     const special = [
         {
-            src: './assets/carouselImages/05.jpg',
-            title: 'CIVIL',
-            description: 'Description for CIVIL',
-            id:"13"
+            src: './assets/carouselImages/AUTOSHW.webp',
+            title: 'AUTOSHOW',
+            filename: '',
+            id:"30",
+            reglink: ''
           },
           {
-            src: './assets/carouselImages/05.jpg',
-            title: 'CIVIL',
-            description: 'Description for CIVIL',
-            id:"14"
+            src: './assets/carouselImages/soapyfootball.webp',
+            title: 'SOAPY FOOTBALL',
+            filename: '',
+            id:"31",
+            reglink:''
           },
-          {
-            src: './assets/carouselImages/05.jpg',
-            title: 'CIVIL',
-            description: 'Description for CIVIL',
-            id:"15"
-          },
+
     ]
   return (
     <div className='depmaincont specialcont'>

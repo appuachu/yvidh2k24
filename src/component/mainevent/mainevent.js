@@ -5,35 +5,35 @@ import Events from '../events/events'
 export default function Mainevent() {
     const mainevent = [
         {
-            src: './assets/carouselImages/05.jpg',
+            src: './assets/carouselImages/vadhyadhwani.webp',
             title: 'Vadhya Dhawani',
-            filename: 'vadhyadhawani.pdf',
-            filelink:"./assets/rules/vidhyadhwani.pdf",
-            id:"13",
-            reglink:"https://forms.gle/DpX4mbX2Sdeww2Xq8"
+            filename: 'vadhyadhawani.jpg',
+            filelink:"./assets/rules/vadhyadhwaniguidelines.jpg",
+            id:"33",
+            reglink:'https://forms.gle/DpX4mbX2Sdeww2Xq8'
           },
           {
-            src: './assets/carouselImages/05.jpg',
+            src: './assets/carouselImages/raagaFINAL.webp',
             title: 'RAAGA',
-            filename: 'raaga.pdf',
-            filelink:"./assets/rules/raaga.pdf",
-            id:"14",
+            filename: 'raaga.jpg',
+            filelink:"./assets/rules/raagaguidelines.jpg",
+            id:"34",
             reglink:"https://forms.gle/A4VxtTC3G2qNJTqt6"
           },
           {
-            src: './assets/carouselImages/05.jpg',
+            src: './assets/carouselImages/NATYAfinal.webp',
             title: 'NATYA',
-            filename: 'natya.pdf',
-            filelink:"./assets/rules/natya.pdf",
-            id:"15",
+            filename: 'natya.jpg',
+            filelink:"./assets/rules/NATYA-guidelines.jpg",
+            id:"35",
             reglink:"https://forms.gle/6QM95bdk4dnc5eKf6"
           },
           {
-            src: './assets/carouselImages/05.jpg',
+            src: './assets/carouselImages/MUSCLEWAR.webp',
             title: 'Muscle War',
-            filename: 'musclewar.pdf',
-            filelink:"./assets/rules/musclewar.pdf",
-            id:"16",
+            filename: 'musclewar.jpg',
+            filelink:"./assets/rules/MUSCLEWARguidelines.jpg",
+            id:"36",
             reglink:"https://forms.gle/XzEAg9heegorschd8"
           },
     ]

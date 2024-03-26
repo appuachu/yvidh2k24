@@ -78,4 +78,7 @@
 .Slidercontainermain {
     margin-top: 8vw;
 }
+.depname a {
+    font-size: 4vw;
+}
 }

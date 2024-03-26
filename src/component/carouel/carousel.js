@@ -13,7 +13,7 @@ function Carousel({ slides,handleSectionClick}) {
   return (
     <Swiper
       modules={[EffectCoverflow, Navigation, Pagination , Autoplay]}
-      autoplay={{ delay: 2000 }}
+      autoplay={{ delay: 100000 }}
       navigation={{
         prevEl: ".button-prev",
         nextEl: ".button-next",
@@ -22,7 +22,7 @@ function Carousel({ slides,handleSectionClick}) {
         clickable: true,
       }}
       speed={1000}
-      slidesPerView={3}
+      slidesPerView={2}
       centeredSlides
       effect={"coverflow"}
       coverflowEffect={{

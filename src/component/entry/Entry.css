@@ -5,7 +5,7 @@
 }
 .EntryContainer{
     animation: loading  6.5s linear 1s forwards;
-    
+
 }
 @keyframes loading {
     0%{
@@ -18,14 +18,14 @@
         display: none;
     }
 
-    
+
 }
 .MyEntry{
     position:absolute;
     z-index: -1;
 }
 
-.MyEntry > img{
+.MyEntry > video{
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -34,15 +34,19 @@
     position: absolute;
     z-index: 1;
 }
+
 .yvidhText{
     width: 100%;
-    
+    z-index: -1;
+    position: relative;
+
 }
-.EntryContainer > .text {
+.textcontainer {
     position: absolute;
     top: 0;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #000;
     mix-blend-mode: multiply;
     user-select: none;
@@ -53,6 +57,7 @@
     overflow: hidden;
     transform: scale(0);
     animation: entry 2.5s linear forwards;
+    z-index: 3;
   }
 
   @keyframes entry {
