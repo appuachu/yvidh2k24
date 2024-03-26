@@ -12,7 +12,7 @@ export default function Department() {
   const departments = {
   cse: [
     {
-      src: './assets/carouselImages/CPU_ASSEMBLY.webp',
+      src: './assets/carouselImages/CPUASSEMBLY.webp',
       title: 'CPU Assembly',
       filename: 'cpuassembly.pdf',
       filelink: "./assets/rules/cpuassembly.pdf",
@@ -48,14 +48,14 @@ export default function Department() {
       id:"5",
       reglink:"https://forms.gle/MBHj6DE49ZLERnks7"    },
     {
-      src: './assets/carouselImages/HARDWAREEXPO.webp',
+      src: './assets/carouselImages/01.jpg',
       title: 'PC Hardware Exhibition',
       filename: 'hardware.pdf',
       filelink: "./assets/rules/hardware.pdf " ,
       id:"6",
       reglink:""    },
     {
-      src: './assets/carouselImages/ROBOTICSEXHIBITION.webp',
+      src: './assets/carouselImages/01.jpg',
       title: 'Robotic Exhibition',
       filename: 'robotics.pdf',
       filelink: "./assets/rules/robotics.pdf " ,
@@ -150,27 +150,11 @@ export default function Department() {
     },
     {
       src: './assets/carouselImages/04.jpg',
-      title: 'ROBOTICS EXPO',
-      filename: '',
-      filelink: " " ,
+      title: 'ISRO EXPO',
+      filename: 'spaceexpo.pdf',
+      filelink: "./assets/rules/spaceexpo.pdf " ,
       id:"18",
-      reglink:""
-    },
-    {
-      src: './assets/carouselImages/04.jpg',
-      title: 'SPACE EXPO PLANETARIUM',
-      filename: '',
-      filelink: " " ,
-      id:"19",
-      reglink:""
-    },
-    {
-      src: './assets/carouselImages/04.jpg',
-      title: 'PROJECT EXPO',
-      filename: '',
-      filelink: " " ,
-      id:"20",
-      reglink:""
+      reglink:"https://forms.gle/MFwEFBhcXjYCsDcUA"
     },
   ],
  civil: [
@@ -179,7 +163,7 @@ export default function Department() {
       title: 'CHESS MASTER',
       filename: 'chessmaster.pdf',
       filelink: "./assets/rules/chessmaster.pdf " ,
-      id:"21",
+      id:"19",
       reglink:"https://forms.gle/oznCQLCgU52cwdRn6"
     },
     {
@@ -187,7 +171,7 @@ export default function Department() {
       title: 'Crafty Cuts',
       filename: 'craftycuts.pdf',
       filelink: "./assets/rules/craftycuts.pdf " ,
-      id:"22",
+      id:"20",
       reglink:"https://forms.gle/RYATvUfcw9YJaTSf6"
     },
     {
@@ -195,7 +179,7 @@ export default function Department() {
       title: 'CADDSTER',
       filename: 'caddster.pdf',
       filelink: "./assets/rules/caddster.pdf " ,
-      id:"23",
+      id:"21",
       reglink:"https://forms.gle/fdj7ZmEhsz5vqDm4A"
     },
     {
@@ -203,7 +187,7 @@ export default function Department() {
       title: 'Setup the Mould',
       filename: 'setupthemould.pdf',
       filelink: "./assets/rules/setupthemould.pdf " ,
-      id:"24",
+      id:"22",
       reglink:"https://forms.gle/jRMWM8bAaXVYpgkt6"
     },
   ],
@@ -213,7 +197,7 @@ eee: [
       title: 'MADRUSH',
       filename: 'madrush.pdf',
       filelink: "./assets/rules/madrush.pdf " ,
-      id:"25",
+      id:"23",
       reglink:"https://forms.gle/uapFsgTemfaTHuHD9"
     },
     {
@@ -221,7 +205,7 @@ eee: [
       title: 'SHOOTOUT',
       filename: 'shootout.pdf',
       filelink: "./assets/rules/shootout.pdf " ,
-      id:"26",
+      id:"24",
       reglink:"https://forms.gle/jYG7KYSFfp9RCufS8"
     },
     {
@@ -229,7 +213,7 @@ eee: [
       title: 'Orate (PPT Presentation)',
       filename: 'orate.pdf',
       filelink: "./assets/rules/orate.pdf " ,
-      id:"27",
+      id:"25",
       reglink:"https://forms.gle/8B7ZUN3WJXDimzV86"
     },
     {
@@ -237,7 +221,7 @@ eee: [
       title: 'PERIOD PAIN SIMULATOR (EXHIBITION)',
       filename: 'periodpainsimulator.pdf',
       filelink: "./assets/rules/periodpainsimulator.pdf " ,
-      id:"28",
+      id:"26",
       reglink:""
     },
   ],
@@ -247,7 +231,7 @@ eee: [
       title: 'Tractor Parking',
       filename: 'tractor.pdf',
       filelink: "./assets/rules/tractor.pdf " ,
-      id:"29",
+      id:"27",
       reglink:"https://forms.gle/iRgiPy8eGD2f368Q6"
     },
     {
@@ -255,47 +239,46 @@ eee: [
       title: 'DRONE EXPO',
       filename: 'drone.pdf',
       filelink: "./assets/rules/drone.pdf" ,
-      id:"30",
+      id:"29",
       reglink:""
     },
 
   ]
 }
-return (
-<div className='depmaincont'>
-  <div className='deplist'>
-    <div className="depnav">
-      <div className={'depname ' + (activeSection === 'ai' ? 'active' : '')} onClick={() => handleSectionClick('ai')}>
-        <a href="#ai">AI/ML</a>
+  return (
+    <div className='depmaincont'>
+      <div className='deplist'>
+        <div className="depnav">
+          <div className={depname ${activeSection === 'ai' ? 'active' : ''}} onClick={() => handleSectionClick('ai')}>
+            <a href="#ai">AI/ML</a>
+          </div>
+          <div className={depname ${activeSection === 'mech' ? 'active' : ''}} onClick={() => handleSectionClick('mech')}>
+            <a href="#mech">MECH</a>
+          </div>
+          <div className={depname ${activeSection === 'civil' ? 'active' : ''}} onClick={() => handleSectionClick('civil')}>
+            <a href="#civil">CIVIL</a>
+          </div>
+          <div className={depname ${activeSection === 'agri' ? 'active' : ''}} onClick={() => handleSectionClick('agri')}>
+            <a href="#agri">AGRI</a>
+          </div>
+          <div className={depname ${activeSection === 'ece' ? 'active' : ''}} onClick={() => handleSectionClick('ece')}>
+            <a href="#ece">ECE</a>
+          </div>
+          <div className={depname ${activeSection === 'eee' ? 'active' : ''}} onClick={() => handleSectionClick('eee')}>
+            <a href="#eee">EEE</a>
+          </div>
+          <div className={depname ${activeSection === 'cse' ? 'active' : ''}} onClick={() => handleSectionClick('cse')}>
+            <a href="#cse">CSE</a>
+          </div>
+        </div>
       </div>
-      <div className={'depname ' + (activeSection === 'mech' ? 'active' : '')} onClick={() => handleSectionClick('mech')}>
-        <a href="#mech">MECH</a>
-      </div>
-      <div className={'depname ' + (activeSection === 'civil' ? 'active' : '')} onClick={() => handleSectionClick('civil')}>
-        <a href="#civil">CIVIL</a>
-      </div>
-      <div className={'depname ' + (activeSection === 'agri' ? 'active' : '')} onClick={() => handleSectionClick('agri')}>
-        <a href="#agri">AGRI</a>
-      </div>
-      <div className={'depname ' + (activeSection === 'ece' ? 'active' : '')} onClick={() => handleSectionClick('ece')}>
-        <a href="#ece">ECE</a>
-      </div>
-      <div className={'depname ' + (activeSection === 'eee' ? 'active' : '')} onClick={() => handleSectionClick('eee')}>
-        <a href="#eee">EEE</a>
-      </div>
-      <div className={'depname ' + (activeSection === 'cse' ? 'active' : '')} onClick={() => handleSectionClick('cse')}>
-        <a href="#cse">CSE</a>
+      <div className='depevent'>
+        {Object.keys(departments).map((deptKey) => (
+          <section className="eventsec" id={deptKey} key={deptKey} style={{ display: activeSection === deptKey ? 'block' : 'none' }}>
+            <Events dept={departments[deptKey]} />
+          </section>
+        ))}
       </div>
     </div>
-  </div>
-  <div className='depevent'>
-    {Object.keys(departments).map((deptKey) => (
-      <section className="eventsec" id={deptKey} key={deptKey} style={{ display: activeSection === deptKey ? 'block' : 'none' }}>
-        <Events dept={departments[deptKey]} />
-      </section>
-    ))}
-  </div>
-</div>
-)
-
+  )
 }

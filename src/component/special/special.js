@@ -8,17 +8,16 @@ export default function Special() {
             src: './assets/carouselImages/AUTOSHW.webp',
             title: 'AUTOSHOW',
             filename: '',
-            id:"31",
+            id:"30",
             reglink: ''
           },
           {
             src: './assets/carouselImages/soapyfootball.webp',
             title: 'SOAPY FOOTBALL',
             filename: '',
-            id:"32",
+            id:"31",
             reglink:''
           },
-
 
     ]
   return (
