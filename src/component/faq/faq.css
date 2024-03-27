@@ -62,15 +62,15 @@
 .fleftinner{
   display: flex;
   justify-content: flex-start;
-  align-items: center; 
+  align-items: center;
   width: 100%;
 }
 
 .flefta {
-  text-decoration: none; 
+  text-decoration: none;
   color: white;
   font-size: 100%;
-  
+
 }
 .fcenter{
   width: 40%;
@@ -215,7 +215,7 @@
   .faq-question,.faq-answer,.faqheading h1{
     font-size: 1.9vh !important;
   }
-  
+
   .fitem{
     flex: 2;
   }
@@ -237,7 +237,7 @@
   .frightinner a{
     height: 100%;
   }
-  .fcenter h5{
+  .powered{
     margin: 0;
     font-size: 0.9vh;
   }
@@ -252,5 +252,7 @@
     align-items: center;
     justify-content: center;
   }
-
+  .committelink{
+    font-size: 3.5vw;
+  }
 }

@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 import "./faq.css";
 import Faqmain from "./faqmain";
 
-export default function Fag() {
+export default function Fag({handleCreditsClick}) {
   const [faqs, setFaqs] = useState([
     {
       question: "Do you have any transportation facilities?",
@@ -76,13 +76,13 @@ export default function Fag() {
       </div>
           </div>
           </div>
-          
+
         </div>
         <div className="footercontainer">
           <div className="footercontent">
             <div className="fleft fitem">
               <div className="fleftinner">
-                <h5><a className="flefta" href="">WWW.Yvidh.live</a></h5>
+                <h5><a className="flefta" href="">www.yvidh.live</a></h5>
               </div>
             </div>
             <div className="fcenter fitem">
@@ -90,11 +90,11 @@ export default function Fag() {
                 <div className="fcenterimg">
                 <img src="./assets/home/yvidh.png"/>
                 </div>
-                <div><h5>Powered by Yvidh24</h5></div>
-                <div><h5>website committe</h5></div>
-                
-                
-                
+                <div><h5 className='powered'>Powered by Yvidh24</h5></div>
+                <div><h5 className='committelink'><a href="#Credits" onClick={handleCreditsClick}> website committe</a></h5></div>
+
+
+
               </div>
             </div>
             <div className="fright fitem">

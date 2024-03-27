@@ -12,7 +12,7 @@ export default function Department() {
   const departments = {
   cse: [
     {
-      src: './assets/carouselImages/CPUASSEMBLY.webp',
+      src: './assets/carouselImages/CPU_ASSEMBLY.webp',
       title: 'CPU Assembly',
       filename: 'cpuassembly.pdf',
       filelink: "./assets/rules/cpuassembly.pdf",
@@ -27,7 +27,7 @@ export default function Department() {
       id:"2",
       reglink:"https://forms.gle/edN4ENaEmwDwffE98"    },
     {
-      src: './assets/carouselImages/ANIME_QUIZ.webp',
+      src: './assets/carouselImages/ANIME_QUIZ_JPG.webp',
       title: 'Anime Quiz',
       filename: 'animequiz.pdf',
       filelink: "./assets/rules/animequiz.pdf " ,
@@ -41,21 +41,21 @@ export default function Department() {
       id:"4",
       reglink:"https://forms.gle/1iiGqcuwDS5Rve3f9"    },
     {
-      src: './assets/carouselImages/BGMI_TOURNMENT.jpg',
+      src: './assets/carouselImages/BGMI_TOURNMENT.webp',
       title: 'Sports(BGMI)',
       filename: 'bgmi.pdf',
       filelink: "./assets/rules/bgmi.pdf " ,
       id:"5",
       reglink:"https://forms.gle/MBHj6DE49ZLERnks7"    },
     {
-      src: './assets/carouselImages/HARDWAREEXPO.webp',
+      src: './assets/carouselImages/HARDWARE_EXPO.webp',
       title: 'PC Hardware Exhibition',
       filename: 'hardware.pdf',
       filelink: "./assets/rules/hardware.pdf " ,
       id:"6",
       reglink:""    },
     {
-      src: './assets/carouselImages/ROBOTICSEXHIBITION.webp',
+      src: './assets/carouselImages/ROBOTICS_EXHIBITION.webp',
       title: 'Robotic Exhibition',
       filename: 'robotics.pdf',
       filelink: "./assets/rules/robotics.pdf " ,
@@ -64,21 +64,21 @@ export default function Department() {
   ],
  ai: [
     {
-      src: './assets/carouselImages/WEBDEV_1_70.png',
+      src: './assets/carouselImages/WEBDEV.webp',
       title: 'Website Development',
       filename: 'webdevelopment.pdf',
       filelink: "./assets/rules/webdevelopment.pdf " ,
       id:"8",
       reglink:"https://docs.google.com/forms/d/e/1FAIpQLSdkenyt82OFCtECTQ-bOzBSXH3L4dUcVEALb_3VD0hnuCC54w/viewform?usp=sf_link"    },
     {
-      src: './assets/carouselImages/treasure_hunt_1_83.webp',
+      src: './assets/carouselImages/treasure_hunt.webp',
       title: 'QR Treasure Hunt',
       filename: 'qrtreasurehunt.pdf ',
       filelink: "./assets/rules/qrtreasurehunt.pdf " ,
       id:"9",
       reglink:" "    },
     {
-      src: './assets/carouselImages/prompt_2_79.webp',
+      src: './assets/carouselImages/prompt.webp',
       title: 'Prompt Literaria',
       filename: 'promptliteraria.pdf',
       filelink: "./assets/rules/promptliteraria.pdf " ,
@@ -87,28 +87,28 @@ export default function Department() {
   ],
   ece: [
     {
-      src: './assets/carouselImages/MATRICODE.webp',
+      src: './assets/carouselImages/MATRICODE_copy.webp',
       title: 'MATRICODE',
       filename: 'matricode.pdf',
       filelink: "./assets/rules/matricode.pdf " ,
       id:"11",
       reglink:"https://forms.gle/MpqLi7yUijLyAsmf9"    },
     {
-      src: './assets/carouselImages/NEEDFORSPEED.webp',
+      src: './assets/carouselImages/NEED_FOR_SPEED.webp',
       title: 'NEED FOR SPEED',
       filename: 'nfs.pdf',
       filelink: "./assets/rules/nfs.pdf " ,
       id:"12",
       reglink:"https://forms.gle/98NA2fbNug4274dFA"    },
     {
-      src: './assets/carouselImages/KNOWLEDGEKNOCKOUT.webp',
+      src: './assets/carouselImages/KNOWLEDGE_KNOCKOUT.webp',
       title: 'KNOWLEDGE KNOCKOUT',
       filename: 'knowledge.pdf',
       filelink: "./assets/rules/knowledge.pdf" ,
       id:"37",
       reglink:"https://forms.gle/sfxHUVrKRpgyiC5V7"    },
       {
-        src: './assets/carouselImages/FUNTASTICCORNER.webp',
+        src: './assets/carouselImages/FUNTASTIC_CORNER.webp',
         title: 'FUNTASTIC CORNER',
         filename: 'funtasticcorner.pdf',
         filelink: "./assets/rules/funtasticcorner.pdf " ,
@@ -117,7 +117,7 @@ export default function Department() {
   ],
   mech: [
     {
-      src: './assets/carouselImages/MASTERMECH_optimized.webp',
+      src: './assets/carouselImages/MASTERMECH.webp',
       title: 'MASTER MECH',
       filename: 'mastermech.pdf',
       filelink: "./assets/rules/mastermech.pdf " ,
@@ -125,7 +125,7 @@ export default function Department() {
       reglink:"https://forms.gle/MFwEFBhcXjYCsDcUA"
     },
     {
-      src: './assets/carouselImages/lathe_optimized.webp',
+      src: './assets/carouselImages/lathe_master.webp',
       title: 'LATHE MAESTRO',
       filename: 'LatheMaestro.pdf',
       filelink: "./assets/rules/lathemaestro.pdf " ,
@@ -149,7 +149,7 @@ export default function Department() {
       reglink:"https://forms.gle/MFwEFBhcXjYCsDcUA"
     },
     {
-      src: './assets/carouselImages/meroboexpo.webp',
+      src: './assets/carouselImages/robotics_expo.webp',
       title: 'ROBOTICS EXPO',
       filename: 'roboticexpo.pdf',
       filelink: "./assets/rules/roboticsexpo.pdf " ,
@@ -157,7 +157,7 @@ export default function Department() {
       reglink:""
     },
     {
-      src: './assets/carouselImages/mespace.webp',
+      src: './assets/carouselImages/SPACEEXPO.webp',
       title: 'SPACE EXPO PLANETARIUM',
       filename: 'spaceexpo.pdf',
       filelink: "./assets/rules/spaceexpo.pdf " ,
@@ -176,7 +176,7 @@ export default function Department() {
   ],
  civil: [
     {
-      src: './assets/carouselImages/CHESS_MASTER_1_76.webp',
+      src: './assets/carouselImages/CHESSMASTER.webp',
       title: 'CHESS MASTER',
       filename: 'chessmaster.pdf',
       filelink: "./assets/rules/chessmaster.pdf " ,
@@ -184,7 +184,7 @@ export default function Department() {
       reglink:"https://forms.gle/oznCQLCgU52cwdRn6"
     },
     {
-      src: './assets/carouselImages/CRAFTY_CUTS_1_78.webp',
+      src: './assets/carouselImages/CRAFTYCUTS.webp',
       title: 'Crafty Cuts',
       filename: 'craftycuts.pdf',
       filelink: "./assets/rules/craftycuts.pdf " ,
@@ -192,7 +192,7 @@ export default function Department() {
       reglink:"https://forms.gle/RYATvUfcw9YJaTSf6"
     },
     {
-      src: './assets/carouselImages/cadd_copy_1_78.webp',
+      src: './assets/carouselImages/caddcopy.webp',
       title: 'CADDSTER',
       filename: 'caddster.pdf',
       filelink: "./assets/rules/caddster.pdf " ,
@@ -200,7 +200,7 @@ export default function Department() {
       reglink:"https://forms.gle/fdj7ZmEhsz5vqDm4A"
     },
     {
-      src: './assets/carouselImages/mould_1_77.webp',
+      src: './assets/carouselImages/mould.webp',
       title: 'Setup the Mould',
       filename: 'setupthemould.pdf',
       filelink: "./assets/rules/setupthemould.pdf " ,
@@ -210,7 +210,7 @@ export default function Department() {
   ],
 eee: [
     {
-      src: './assets/carouselImages/MAD_RUSH_copy_1_61.webp',
+      src: './assets/carouselImages/MAD_RUSH_copy.webp',
       title: 'MADRUSH',
       filename: 'madrush.pdf',
       filelink: "./assets/rules/madrush.pdf " ,
@@ -218,7 +218,7 @@ eee: [
       reglink:"https://forms.gle/uapFsgTemfaTHuHD9"
     },
     {
-      src: './assets/carouselImages/SHOOT_OUT_copy_1_76.webp',
+      src: './assets/carouselImages/SHOOT_OUT_copy.webp',
       title: 'SHOOTOUT',
       filename: 'shootout.pdf',
       filelink: "./assets/rules/shootout.pdf " ,
@@ -226,7 +226,7 @@ eee: [
       reglink:"https://forms.gle/jYG7KYSFfp9RCufS8"
     },
     {
-      src: './assets/carouselImages/ORATE_copy_1_74.webp',
+      src: './assets/carouselImages/ORATE_copy.webp',
       title: 'Orate (PPT Presentation)',
       filename: 'orate.pdf',
       filelink: "./assets/rules/orate.pdf " ,
@@ -234,7 +234,7 @@ eee: [
       reglink:"https://forms.gle/8B7ZUN3WJXDimzV86"
     },
     {
-      src: './assets/carouselImages/PPS_copy_1_75.webp',
+      src: './assets/carouselImages/PPS_copy.webp',
       title: 'PERIOD PAIN SIMULATOR (EXHIBITION)',
       filename: 'periodpainsimulator.pdf',
       filelink: "./assets/rules/periodpainsimulator.pdf " ,
@@ -252,7 +252,7 @@ eee: [
       reglink:"https://forms.gle/iRgiPy8eGD2f368Q6"
     },
     {
-      src: './assets/carouselImages/droneexpo.webp',
+      src: './assets/carouselImages/drone_expo.webp',
       title: 'DRONE EXPO',
       filename: 'drone.pdf',
       filelink: "./assets/rules/drone.pdf" ,
