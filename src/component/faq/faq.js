@@ -76,7 +76,7 @@ export default function Fag({handleCreditsClick}) {
       </div>
           </div>
           </div>
-
+          
         </div>
         <div className="footercontainer">
           <div className="footercontent">
@@ -92,9 +92,9 @@ export default function Fag({handleCreditsClick}) {
                 </div>
                 <div><h5 className='powered'>Powered by Yvidh24</h5></div>
                 <div><h5 className='committelink'><a href="#Credits" onClick={handleCreditsClick}> website committe</a></h5></div>
-
-
-
+                
+                
+                
               </div>
             </div>
             <div className="fright fitem">

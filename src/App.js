@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Import BrowserRouter and other necessary components from react-router-dom
+import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter and other necessary components from react-router-dom
 import "./App.css";
 import Entry from "./component/entry/entry";
 import Home from "./component/home/home";
 import Countdown from "./component/countdown/countdown";
 import About from "./component/about/about";
-import Events from "./component/events/events";
-import Technical from "./component/technicalevents/technical";
 import Mainpage from "./component/mainPage/mainpage";
 import Faq from "./component/faq/faq";
 import Featureevent from "./component/featureevent/featureevent";
@@ -14,6 +12,7 @@ import Contacts from "./component/contact/contacts";
 import Department from "./component/department/department"
 import Special from "./component/special/special"
 import Mainevent from "./component/mainevent/mainevent";
+import Credits from "./component/credits/credits";
 
 
 function App() {
@@ -21,6 +20,7 @@ function App() {
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
   const [isMainPage, setIsMainPage] = useState(true);
   const [showContacts, setShowContacts] = useState(false);
+  const [showCredits, setCredits] = useState(false);
   const [showDepartments, setShowDepartments] = useState(false);
   const [showSpecial, setShowSpecial] = useState(false);
   const [showMain, setShowMain] = useState(false);
@@ -30,6 +30,7 @@ function App() {
     setShowDepartments(false);
     setShowSpecial(false);
     setShowMain(false);
+    setCredits(false)
     document.getElementById('navbarSupportedContent').classList.remove('show');
   };
   const handleContactsundoClick = () => {
@@ -37,6 +38,7 @@ function App() {
     setShowDepartments(false);
     setShowSpecial(false);
     setShowMain(false);
+    setCredits(false);
     document.getElementById('navbarSupportedContent').classList.remove('show');
   }
   const handleDepartmentClick = () => {
@@ -47,6 +49,9 @@ function App() {
   }
   const handleMainClick = () => {
     setShowMain(true);
+  }
+  const handleCreditsClick = () => {
+    setCredits(true);
   }
 
   useEffect(() => {
@@ -89,7 +94,7 @@ function App() {
         )}
         {showSections && (
           <>
-          {!showContacts && !showDepartments && !showSpecial && !showMain && (
+          {!showContacts && !showDepartments && !showSpecial && !showMain && !showCredits && (
             <><section className="Sections" id="mainpage"><Mainpage/></section></>
           )}
           <div className={`navbarouter ${isNavbarFixed ? 'fixed' : ''}`}>
@@ -118,7 +123,7 @@ function App() {
         </div>
       </nav>
     </div>
-            {!showContacts && !showDepartments && !showSpecial && !showMain && (
+            {!showContacts && !showDepartments && !showSpecial && !showMain && !showCredits && (
               <><section className="intersection"> <img src="./assets/home/frame2.jpg" alt="" /></section>
               <section className="Sections" id="CountDown">
                 <Countdown />
@@ -132,18 +137,18 @@ function App() {
             )}
 
 
-            {showDepartments && !showContacts && !showSpecial && !showMain && (
+            {showDepartments && !showContacts && !showSpecial && !showMain && !showCredits && (
               <><section className="Sections department" id="departmentevent"><Department/></section></>
 
             )}
             {
-              !showDepartments && showSpecial && !showContacts && !showMain && (
+              !showDepartments && showSpecial && !showContacts && !showMain && !showCredits && (
                 <>
                 <section className="Sections department" id="specialevent"><Special/></section></>
               )
             }
             {
-              !showDepartments && !showSpecial && !showContacts && showMain &&(
+              !showDepartments && !showSpecial && !showContacts && showMain && !showCredits &&(
                 <>
                   <section className="Sections department" id="specialevent"><Mainevent/></section>
                 </>
@@ -151,17 +156,23 @@ function App() {
             }
 
 
-            {!showContacts && !showDepartments && !showSpecial && !showMain && (
-              <><section className="Sections" id="faq"><Faq/></section></>
+            {!showContacts && !showDepartments && !showSpecial && !showMain && !showCredits && (
+              <><section className="Sections" id="faq"><Faq handleCreditsClick={handleCreditsClick}/></section></>
             )}
-            {showContacts && !showDepartments && !showSpecial && !showMain && (
+            {showContacts && !showDepartments && !showSpecial && !showMain && !showCredits &&(
               <><section className="Sectionsc" id="contacts">
               <Contacts />
             </section>
-
-
             </>
             )}
+            {showCredits && !showDepartments && !showSpecial && !showMain && !showContacts &&(
+              <>
+              <section className="Sections" id="Credits"><Credits/></section>
+
+              </>
+            )
+
+            }
 
           </>
         )}

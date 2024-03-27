@@ -72,7 +72,7 @@
     justify-content: center;
   }
   .eventdescription{
-  color: rgb(50, 129, 199);
+  color: white;
   font-weight: 600;
 }
 .eventimageptag{
@@ -173,8 +173,10 @@
   height: fit-content;
 }
 .eventdescription{
-  color: rgb(50, 129, 199);
+  color: white;
   font-weight: 600;
+  padding: 7vw;
+  padding-top: 0;
 }
 .eventdescription p{
   margin-bottom: 0;
