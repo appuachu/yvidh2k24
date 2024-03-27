@@ -76,7 +76,7 @@ export default function Department() {
       filename: 'qrtreasurehunt.pdf ',
       filelink: "./assets/rules/qrtreasurehunt.pdf " ,
       id:"9",
-      reglink:" "    },
+      reglink:""    },
     {
       src: './assets/carouselImages/prompt.webp',
       title: 'Prompt Literaria',
