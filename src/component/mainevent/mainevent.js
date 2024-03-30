@@ -24,7 +24,7 @@ export default function Mainevent() {
             src: './assets/carouselImages/NATYAfinal.webp',
             title: 'NATYA',
             filename: 'NATYAfinal.webp',
-            filelink:"./assets/rules/NATYA-guidelines.jpg",
+            filelink:"./assets/rules/natya.jpg",
             id:"35",
             reglink:"https://forms.gle/6QM95bdk4dnc5eKf6"
           },
